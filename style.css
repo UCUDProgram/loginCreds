@@ -1,0 +1,19 @@
+input{
+    width:100px;
+}
+
+.hidden{
+    display:none;
+}
+
+.textHeight{
+    height: 100px;
+}
+
+.button_block{
+    display:inline-block;
+}
+
+.input_block{
+    display: block;
+}

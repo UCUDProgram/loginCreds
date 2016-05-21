@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="Pages.js"></script>
+    </head>
+    <body>
+        <div id="login">
+            <!--<div id="title" class = "textHeight"></div>-->
+            <h1>Welcome to Password Central</h1>
+            <div id = "input_block">
+                <label for="username">Username: </label>
+                <input type = "text" id = "username"/>
+            </div> 
+            <div id ="input_block">
+                <label for="username">Password: </label>
+                <input type = "text" id = "password"/>
+            </div>
+            <div id = "button_block">
+                <button type = "button" id = "loginSubmit">Submit</button>
+                <button type = "button" id = "passChange">Change Password</button>
+                <button type = "button" id = "registerAcct">Register for a Free Account</button>
+            </div>
+        </div>
+        
+        <div id="register" class ="hidden">
+            <div id="input_block">
+                <label for="username">Username: </label>
+                <input type = "text" id = "regUsername"/>
+            </div>
+            <div id ="input_block">
+                <label for="username">Password: </label>
+                <input type = "text" id = "new_pwd"/>
+            </div> 
+            <div id = "input_block">
+                <label for="username">Password Verification: </label>
+                <input type = "text" id = "new_pwd_verify"/>
+            </div>
+            <div id = "button_block">
+                <button type = "button" id = "registerSubmit">Submit</button>
+                <button type = "button" id = "registerBack">Home Screen</button>
+            </div>
+            
+        </div>
+        
+        <div id="passwordChange" class = "hidden">
+            <div id="input_block">
+                <label for="username">Username: </label>
+                <input type = "text" id = "pwdUsername"/>
+            </div>
+            <div id = "input_block">
+                <label for="username">Current Password: </label>
+                <input type = "text" id = "user_curr_pwd"/>
+            </div>
+            <div id="input_block">
+                <label for="username">New Password: </label>
+                <input type = "text" id = "pwd_reset"/>
+            </div>
+            <div id ="input_block">
+                <label for="username">Verify Password: </label>
+                <input type = "text" id = "pwd_reset_verify"/>
+            </div>
+            <div id="button_block">
+                <button type = "button" id = "pwdChangeSubmit">Submit</button>
+                <button type = "button" id = "pwdChangeBack">Home Screen</button>
+            </div>
+        </div>
+        
+        <div id ="loggedIn" class = "hidden">
+            <div id = "loginSuccess"></div>
+            <button type = "button" id = "logout">Logout</button>
+        </div>
+        
+    </body>
+</html>
